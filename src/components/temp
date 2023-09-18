@@ -1,0 +1,40 @@
+else if (userChoice === "rock" && computerChoice === "scissor") {
+      setWinMessage(
+        "You Won.......... Your choice:-",
+        { userChoice },
+        "Computer choice:- ",
+        { computerChoice }
+      );
+    } else if(userChoice === "paper" && computerChoice === "rock"){
+        setWinMessage(
+            "You Won.......... Your choice:-",
+            { userChoice },
+            "Computer choice:- ",
+            { computerChoice }
+          );
+    } else if(userChoice === "paper" && computerChoice === "scissor"){
+        setWinMessage(
+            "You Lost.......... Your choice:-",
+            { userChoice },
+            "Computer choice:- ",
+            { computerChoice }
+          );
+    } else if(userChoice === "scissor" && computerChoice === "rock"){
+        setWinMessage(
+            "You Lost.......... Your choice:-",
+            { userChoice },
+            "Computer choice:- ",
+            { computerChoice }
+          );
+    } else if(userChoice === "scissor" && computerChoice === "paper"){
+        setWinMessage(
+            "You Won.......... Your choice:-",
+            { userChoice },
+            "Computer choice:- ",
+            { computerChoice }
+          );
+    } else {
+        setWinMessage(
+            "You Lost.......... Your choice:-",{ userChoice },"Computer choice:- ",{ computerChoice }
+          );
+    }
